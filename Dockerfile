@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
     git curl wget \
-    python python-pip build-essentials \
+    python python-pip build-essential \
     rsync \
     unrar-free unzip \
     && \
